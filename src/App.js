@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter,  Route,  Link,  Switch,  NavLink } from 'react-router-dom';
+import Home from './components/Home';
+import Organizations from './components/Organizations';
+import Local from './components/Local';
+import LoggedIn from './components/LoggedIn';
+import Form from './components/Form';
+import Login from './components/Login';
+import Register from './components/Register';
+import Logout from './components/Logout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <HashRouter>             
+      <Switch>               
+      <Route exact path='/'><Home /></Route>
+      <Route exact path='/'><Organizations /></Route>
+      <Route exact path='/'><Local /></Route>
+      <Route exact path='/'><LoggedIn /></Route>
+      <Route exact path='/oddaj-rzeczy'><Form /></Route>
+      <Route exact path='/logowanie'><Login /></Route>
+      <Route exact path='/rejestracja'><Register /></Route>
+      <Route exact path='/wylogowano'><Logout /></Route>
+      </Switch>           
+    </HashRouter>
+  )
 }
 
 export default App;
