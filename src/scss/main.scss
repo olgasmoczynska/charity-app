@@ -1,4 +1,14 @@
 @import '../../node_modules/reset-css/sass/reset';
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
-@import "./settings/colors";
-@import "./settings/fonts";
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+@import './settings/colors';
+@import './settings/fonts';
+
+@import './layout/nav';
+@import './layout/header';
+
+body {
+    font-family: $font-base;
+    color: $color-text-main;
+}
