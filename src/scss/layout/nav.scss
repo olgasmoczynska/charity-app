@@ -1,0 +1,9 @@
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    li:not(last-of-type) {
+        margin-right: 24px;
+        font-size: 18px;
+    }
+    padding: 46px 0;
+}
