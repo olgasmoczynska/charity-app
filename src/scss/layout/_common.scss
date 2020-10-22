@@ -1,0 +1,17 @@
+.btn {
+    font-size: 36px;
+    font-weight: 300;
+    width: 310px;
+    padding: 13px 51px;
+    background-color: #fff;
+    border: 1px solid $color-text-main;
+    &:hover {
+        cursor: pointer;
+        background-color: $color-text-main;
+        color: #fff;
+    }
+}
+
+h1 {
+    font-size: 38px;
+}
