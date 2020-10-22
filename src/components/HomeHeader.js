@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from 'react';
+import { NavLink } from 'react-router-dom';
+import image from '../assets/Decoration.svg'
 
 function HomeHeader() {
     return (
@@ -6,12 +8,12 @@ function HomeHeader() {
             <div className="header-image">
             </div>
             <div className="header-cta">
-                <p>Zacznij pomagać!</p>
-                <p>Oddaj niechciane rzeczy w zaufane ręce</p>
-                <img src='https://trello-attachments.s3.amazonaws.com/5f7da9a2ed1d3d01fef05458/5f7da9a2ed1d3d01fef054cd/x/ddabeef3a6e163eff5556f58b8d848d9/Decoration.svg' />
+                <h1>Zacznij pomagać!</h1>
+                <h1>Oddaj niechciane rzeczy w zaufane ręce</h1>
+                <img src={image} />
                 <div className="header-buttons">
-                    <button className="btn">ODDAJ RZECZY</button>
-                    <button className="btn">ZORGANIZUJ ZBIÓRKĘ</button>
+                    <NavLink className="navlink" to='/logowanie' ><button className="btn">ODDAJ RZECZY</button></NavLink>
+                    <NavLink className="navlink" to='/logowanie' ><button className="btn">ZORGANIZUJ ZBIÓRKĘ</button></NavLink>
                 </div>
             </div>
         </div>
