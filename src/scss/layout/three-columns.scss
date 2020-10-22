@@ -1,0 +1,25 @@
+.three-columns {
+    display: flex;
+    height: 384px;
+    background-image: url('../../assets/Yellow-Background.png');
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 163px 0 163px;
+    p:first-child {
+        font-size: 90px;
+        color: $color-text-alt;
+    }
+    p:nth-of-type(2) {
+        font-size: 18px;
+        padding: 28px 0;
+    }
+    p:last-child {
+        line-height: 1.75;
+        text-align: center;
+    }
+}
