@@ -1,7 +1,6 @@
 import React from 'react';
 import { HashRouter,  Route,  Link,  Switch,  NavLink } from 'react-router-dom';
 import Home from './components/Home';
-import Organizations from './components/Organizations';
 import Local from './components/Local';
 import LoggedIn from './components/LoggedIn';
 import Form from './components/Form';
@@ -13,10 +12,7 @@ function App() {
   return (
     <HashRouter>             
       <Switch>               
-      <Route exact path='/'><Home /></Route>
-      <Route exact path='/'><Organizations /></Route>
-      <Route exact path='/'><Local /></Route>
-      <Route exact path='/'><LoggedIn /></Route>
+      <Route exact path='/' component={Home}/>
       <Route exact path='/oddaj-rzeczy'><Form /></Route>
       <Route exact path='/logowanie'><Login /></Route>
       <Route exact path='/rejestracja'><Register /></Route>
