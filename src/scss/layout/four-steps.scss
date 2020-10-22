@@ -1,0 +1,50 @@
+.instructions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-steps {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: $color-background;
+    width: 100%;
+    padding: 71px 0;
+}
+
+.step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p:first-of-type {
+        font-size: 18px;
+    }
+    hr {
+        width: 67%;
+        margin: 10px 0;
+    }
+    img {
+        margin-bottom: 10px;
+        transition: 1s;
+        &:hover {
+            transform: rotate(360deg);
+        }
+    }
+}
+
+.instructions-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 51px 0;
+    h1 {
+        margin-bottom: 39px;
+    }
+}
+
+.instructions-button {
+    padding: 51px 0;
+}
