@@ -1,0 +1,31 @@
+.about {
+    display: flex;
+}
+
+.about-content {
+    width: 50%;
+    background-color: $color-background;
+    padding: 186px 150px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    img {
+        margin: 32px 0;
+        &:last-of-type {
+            align-self: flex-end;
+        }
+    }
+    p {
+        font-size: 30px;
+        line-height: 1.75;
+        text-align: center;
+    }
+}
+
+.about-picture {
+    height: 935px;
+    width: 50%;
+    background-image: url('../../assets/People.jpg');
+}
