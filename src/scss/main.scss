@@ -5,8 +5,12 @@
 @import './settings/colors';
 @import './settings/fonts';
 
+@import './layout/common';
 @import './layout/nav';
 @import './layout/header';
+@import './layout/three-columns';
+@import './layout/four-steps';
+@import './layout/about';
 
 body {
     font-family: $font-base;
