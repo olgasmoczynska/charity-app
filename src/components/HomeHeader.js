@@ -10,7 +10,7 @@ function HomeHeader() {
             <div className="header-cta">
                 <h1>Zacznij pomagać!</h1>
                 <h1>Oddaj niechciane rzeczy w zaufane ręce</h1>
-                <img src={image} />
+                <img src={image} alt="decoration" />
                 <div className="header-buttons">
                     <NavLink className="navlink" to='/logowanie' ><button className="btn">ODDAJ RZECZY</button></NavLink>
                     <NavLink className="navlink" to='/logowanie' ><button className="btn">ZORGANIZUJ ZBIÓRKĘ</button></NavLink>

@@ -7,9 +7,9 @@ function HomeAboutUs() {
         <div className="about" id="about">
             <div className="about-content">
                 <h1>O nas</h1>
-                <img src={image} />
+                <img src={image} alt="decoration" />
                 <p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip.</p>
-                <img src={signature} />
+                <img src={signature} alt="signature" />
             </div>
             <div className="about-picture"></div>
         </div>

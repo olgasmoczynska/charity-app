@@ -3,7 +3,6 @@ import HomeBeneficiariesFoundations from './HomeBeneficiariesFoundations';
 import HomeBeneficiariesOrganizations from './HomeBeneficiariesOrganizations';
 import HomeBeneficiariesLocal from './HomeBeneficiariesLocal';
 import image from '../assets/Decoration.svg';
-const API = 'http://localhost:3000';
 
 function HomeBeneficiaries() {
     const [isFoundationsVisible, setIsFoundationsVisible] = useState(false);
@@ -31,7 +30,7 @@ function HomeBeneficiaries() {
     return (
         <div className="beneficiaries" id="beneficiaries">
             <h1>Komu pomagamy?</h1>
-            <img src={image} />
+            <img src={image} alt="decoration" />
             <div className="buttons">
                 <button className="btn" onClick={displayFoundations}>Fundacjom</button>
                 <button className="btn" onClick={displayOrganizations}>Organizacjom pozarządowym</button>

@@ -11,29 +11,29 @@ function HomeFourSteps() {
         <div className="instructions" id="instructions">
             <div className="instructions-header">
                 <h1>Wystarczą 4 proste kroki</h1>
-                <img src={image} />
+                <img src={image} alt="decoration" />
             </div>
             <div className="four-steps">
                 <div className="step">
-                    <img src= {icon1}></img>
+                    <img src={icon1} alt="t-shirt"></img>
                     <p>Wybierz rzeczy</p>
                     <hr></hr>
                     <p>ubrania, zabawki, sprzęt i inne</p>
                 </div>
                 <div className="step">
-                    <img src= {icon2}></img>
+                    <img src={icon2} alt="bag"></img>
                     <p>Spakuj je</p>
                     <hr></hr>
                     <p>skorzystaj z worków na śmieci</p>
                 </div>
                 <div className="step">
-                    <img src= {icon3}></img>
+                    <img src={icon3} alt="magnifying-glass"></img>
                     <p>Zdecyduj, komu chcesz pomóc</p>
                     <hr></hr>
                     <p>wybierz zaufane miejsce</p>
                 </div>
                 <div className="step">
-                    <img src= {icon4}></img>
+                    <img src={icon4} alt="arrow-cycle"></img>
                     <p>Zamów kuriera</p>
                     <hr></hr>
                     <p>kurier przyjedzie w dogodnym terminie</p>
