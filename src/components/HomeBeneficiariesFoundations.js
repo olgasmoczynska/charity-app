@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react';
 import { getBeneficiaries } from './service';
 import Pagination from "react-js-pagination";
 import Beneficiary from './Beneficiary';
-const API = 'http://localhost:3000';
 
 function HomeBeneficiariesFoundations () {
     const [items, setItems] = useState([]);

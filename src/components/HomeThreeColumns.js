@@ -1,5 +1,4 @@
-import React, {useState, useEffect} from 'react';
-import image from '../assets/Decoration.svg'
+import React from 'react';
 
 function HomeThreeColumns() {
     return (

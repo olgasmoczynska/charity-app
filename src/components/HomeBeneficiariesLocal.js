@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import { getBeneficiaries } from './service';
 import Beneficiary from './Beneficiary';
-const API = 'http://localhost:3000';
 
 function HomeBeneficiariesLocal () {
     const [items, setItems] = useState([]);
