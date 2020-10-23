@@ -1,10 +1,10 @@
-import React, {useState, useEffect} from 'react';
+import React from 'react';
 import HomeNav from './HomeNav';
 import HomeHeader from './HomeHeader';
 import HomeThreeColumns from './HomeThreeColumns';
 import HomeFourSteps from './HomeFourSteps';
 import HomeAboutUs from './HomeAboutUs';
-import HomeOrganizations from './HomeOrganizations';
+import HomeBeneficiaries from './HomeBeneficiaries';
 
 function Home() {
     return (
@@ -14,7 +14,7 @@ function Home() {
         <HomeThreeColumns />
         <HomeFourSteps />
         <HomeAboutUs />
-        <HomeOrganizations />
+        <HomeBeneficiaries />
         </>
     )
 }

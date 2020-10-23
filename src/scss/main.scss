@@ -1,6 +1,6 @@
 @import '../../node_modules/reset-css/sass/reset';
 
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&family=Open+Sans:wght@300;400&display=swap');
 
 @import './settings/colors';
 @import './settings/fonts';
@@ -11,6 +11,7 @@
 @import './layout/three-columns';
 @import './layout/four-steps';
 @import './layout/about';
+@import './layout/beneficiaries';
 
 body {
     font-family: $font-base;

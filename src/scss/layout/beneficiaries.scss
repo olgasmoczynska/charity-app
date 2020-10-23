@@ -1,0 +1,67 @@
+.beneficiaries {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    img {
+        margin: 51px 0;
+    }
+    p {
+        font-size: 22px;
+        padding: 80px 0 66px 0;
+        width: 50%;
+        text-align: center;
+        line-height: 1.5;
+    }
+    .btn {
+        font-size: 24px;
+        height: 86px;
+        &:nth-of-type(2) {
+            margin: 0 157px;
+        }
+    }
+    .buttons {
+        display: flex;
+        align-items: center;
+    }
+}
+.beneficiary-wrapper {
+    display: flex;
+    flex-direction: column;
+    font-family: $font-alt;
+    font-weight: 300;
+}
+
+.beneficiary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $color-text-main;
+    margin-bottom: 31px;
+    .beneficiary-name {
+        font-size: 22px;
+    }
+    .beneficiary-mission {
+        font-size: 18px;
+        padding: 10px 0 31px 0;
+    }
+    .beneficiary-requests {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+}
+
+.pagination {
+    display: flex;
+    align-self: center;
+    a {
+        text-decoration: none;
+        color: $color-link;
+        padding: 10px;
+        &:hover {
+            padding: 9px;
+            border: 1px solid $color-text-main;
+        }
+    }
+}

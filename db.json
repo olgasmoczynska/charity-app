@@ -1,0 +1,100 @@
+{
+  "beneficiaries": {
+    "foundations": [
+      {
+        "name": "Fundacja Dbam o zdrowie",
+        "mission": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+        "requests": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+      },
+      {
+        "name": "Fundacja Dla dzieci",
+        "mission": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
+        "requests": "ubrania, meble, zabawki"
+      },
+      {
+        "name": "Fundacja Bez domu",
+        "mission": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+        "requests": "ubrania, jedzenie, ciepłe koce"
+      },
+      {
+        "name": "Fundacja 4",
+        "mission": "Quis varius quam quisque id diam vel quam elementum pulvinar.",
+        "requests": "egestas, sed, tempus"
+      },
+      {
+        "name": "Fundacja 5",
+        "mission": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+        "requests": "ut, aliquam, purus, sit, amet"
+      },
+      {
+        "name": "Fundacja 6",
+        "mission": "Scelerisque in dictum non consectetur a erat nam.",
+        "requests": "mi, quis, hendrerit, dolor"
+      },
+      {
+        "name": "Fundacja 7",
+        "mission": "Quis varius quam quisque id diam vel quam elementum pulvinar.",
+        "requests": "egestas, sed, tempus"
+      },
+      {
+        "name": "Fundacja 8",
+        "mission": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+        "requests": "ut, aliquam, purus, sit, amet"
+      },
+      {
+        "name": "Fundacja 9",
+        "mission": "Scelerisque in dictum non consectetur a erat nam.",
+        "requests": "mi, quis, hendrerit, dolor"
+      }
+    ],
+    "organizations": [
+        {
+            "name": "Lorem ipsum 1",
+            "mission": "Quis varius quam quisque id diam vel quam elementum pulvinar.",
+            "requests": "egestas, sed, tempus"
+        },
+        {
+            "name": "Lorem ipsum 2",
+            "mission": "Hendrerit gravida rutrum quisque non tellus orci ac auctor augue.",
+            "requests": "ut, aliquam, purus, sit, amet"
+        },
+        {
+            "name": "Lorem ipsum 3",
+            "mission": "Scelerisque in dictum non consectetur a erat nam.",
+            "requests": "mi, quis, hendrerit, dolor"
+        },
+        {
+            "name": "Lorem ipsum 4",
+            "mission": "Nunc congue purus tellus, vel aliquam ex dapibus quis.",
+            "requests": "egestas, sed, tempus"
+        },
+        {
+            "name": "Lorem ipsum 5",
+            "mission": "Aliquam imperdiet porta purus vel auctor.",
+            "requests": "ut, aliquam, purus, sit, amet"
+        },
+        {
+            "name": "Lorem ipsum 6",
+            "mission": "Proin porttitor, eros quis luctus imperdiet, ante enim dignissim tortor.",
+            "requests": "mi, quis, hendrerit, dolor"
+        }
+    ],
+    "local": [
+        {
+            "name": "Lorem ipsum 1",
+            "mission": "Nam egestas rutrum turpis, id imperdiet mauris vehicula tincidunt.",
+            "requests": "egestas, sed, tempus"
+        },
+        {
+            "name": "Lorem ipsum 2",
+            "mission": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.",
+            "requests": "ut, aliquam, purus, sit, amet"
+        },
+        {
+            "name": "Lorem ipsum 3",
+            "mission": "Fusce imperdiet vulputate dignissim.",
+            "requests": "mi, quis, hendrerit, dolor"
+        }
+    ]
+  }
+}
