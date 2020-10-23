@@ -29,13 +29,20 @@ function HomeNav() {
                 </li>
                 <li>
                     <Link
-                    to="organizations"
+                    to="beneficiaries"
                     smooth={true}
                     activeClass="active">
                     Fundacje i organizacje
                     </Link>
                 </li>
-                <li>Kontakt</li>
+                <li>
+                    <Link
+                    to="contact"
+                    smooth={true}
+                    activeClass="active">
+                    Kontakt
+                    </Link>
+                </li>
             </ul>
         </nav>
     )
