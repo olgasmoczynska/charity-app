@@ -1,5 +1,6 @@
 .three-columns {
     display: flex;
+    justify-content: space-evenly;
     height: 384px;
     background-image: url('../../assets/Yellow-Background.png');
 }
@@ -9,7 +10,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0 163px 0 163px;
     p:first-child {
         font-size: 90px;
         color: $color-text-alt;

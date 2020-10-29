@@ -3,9 +3,10 @@
 }
 
 .about-content {
+    max-height: 935px;
     width: 50%;
+    padding: 0 150px;
     background-color: $color-background;
-    padding: 186px 150px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
