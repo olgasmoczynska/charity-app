@@ -49,7 +49,7 @@ function Login() {
                     value={password} 
                     onChange={e => setPassword(e.target.value)} 
                     required />
-                    <button className="btn-submit" type="submit">Zaloguj</button>
+                <button className="btn-submit" type="submit">Zaloguj</button>
                 </form>
             </div>
             <NavLink className="link" to='/rejestracja' >Załóż konto</NavLink>
