@@ -1,0 +1,24 @@
+.login-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 123px;
+    img {
+        margin: 51px 0;
+    }
+    .link:hover {
+        color: #000;
+    }
+}
+
+.login-form {
+    margin-bottom: 24px;
+    form {
+        background-color: $color-background;
+        padding: 40px 67px;
+    }
+    .btn-login {
+        margin: 0;
+    }
+}
