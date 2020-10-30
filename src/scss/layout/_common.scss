@@ -12,6 +12,24 @@
     }
 }
 
+.btn-submit {
+    font-size: 18px;
+    margin-top: 24px;
+    border: 0.75px solid $color-text-main;
+    padding: 13px 53px;
+    background-color: #FFFFFFC9;
+    &:hover {
+        color: #FFFFFFC9;
+        background-color: $color-text-main;
+    }
+}
+
 h1 {
     font-size: 38px;
+}
+
+.link {
+    text-decoration: none;
+    color: $color-link;
+    font-size: 14px;
 }
