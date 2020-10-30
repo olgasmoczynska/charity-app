@@ -31,7 +31,7 @@ function Login() {
             <h1>Zaloguj się</h1>
             <img src={image} alt="decoration" />
             <div className="login-form">
-                <p style={{color: "red"}}>{error}</p>
+                <p style={{color: "red", textAlign: "center", padding: 24}}>{error}</p>
                 <form onSubmit={handleLogin}>
                 <label htmlFor="email">Email</label>
                     <input 
