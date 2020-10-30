@@ -37,7 +37,7 @@ form {
         border-bottom: 1px solid black;
         font-family: $font-base;
         font-size: 18px;
-        background-color: #FFFFFFC9;
+        background: transparent;
     }
     textarea {
         display: block;
@@ -46,7 +46,7 @@ form {
         resize: none;
         font-family: $font-base;
         font-size: 18px;
-        background-color: #FFFFFFC9;
+        background: transparent;
     }
     ::placeholder {
         color: #3C3C3C26;
