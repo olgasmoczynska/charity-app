@@ -1,6 +1,6 @@
 # Charity App
 
-## Table of contents
+## Table of Contents
 * [General Info](#general-info)
 * [Technologies](#technologies)
 * [Status](#status)
