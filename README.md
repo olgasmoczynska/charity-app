@@ -4,7 +4,7 @@
 * [General Info](#general-info)
 * [Technologies](#technologies)
 * [Status](#status)
-* [Live Preview](#live-view)
+* [Live Preview](#live-preview)
 
 ## General Info
 This is a charity app that allows users to donate clothes and other things they don't need anymore to a charity organisation of their choice.
